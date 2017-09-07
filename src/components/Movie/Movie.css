@@ -8,3 +8,6 @@
     background: rgba(0, 0, 0, 0.2); }
   .Movie > .details > .metadata {
     padding-left: 10px; }
+
+.Movie > .day-picker .DayPicker {
+  overflow: hidden; }

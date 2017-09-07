@@ -41,13 +41,13 @@ export default class Movies extends Component {
 
     movies.map((movie, i) => {
       if(i === index) {
-        movie.isActive = !!!movie.isActive;
+        return movie.isActive = !!!movie.isActive;
       }
       else{
-        movie.isActive = false;
+        return movie.isActive = false;
       }
     })
 
-    this.setState({movies: movies});
+    return this.setState({movies: movies});
   }
 }
