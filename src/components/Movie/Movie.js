@@ -10,14 +10,14 @@ export default class Movie extends Component {
           <div className="picture"></div>
 
           <div className="metadata">
-            <div className="title">Wonder Woman</div>
-            <div className="category">Action</div>
-            <div className="rating">IMDB : <b>8.5</b></div>
+            <div className="title">{ this.props.movie.title }</div>
+            <div className="category">{ this.props.movie.category }</div>
+            <div className="rating">IMDB : <b>{ this.props.movie.IMDB }</b></div>
           </div>
         </div>
 
         <div className="day-picker">
-          <DayPicker />
+          {this.props.movie.isActive && <DayPicker />}
         </div>
       </div>
     )

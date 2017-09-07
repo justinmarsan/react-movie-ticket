@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Wonder Woman",
+    "category": "Action",
+    "IMDB": 8.5,
+    "isActive": true
+  },
+  {
+    "title": "Superman",
+    "category": "Action",
+    "IMDB": 8.5,
+    "isActive": false
+  },
+  {
+    "title": "Forest Gump",
+    "category": "Action",
+    "IMDB": 8.5,
+    "isActive": false
+  },
+  {
+    "title": "Idiocracy",
+    "category": "Comedy",
+    "IMDB": 8.5,
+    "isActive": false
+  },
+  {
+    "title": "Shrek",
+    "category": "Comedy",
+    "IMDB": 8.5,
+    "isActive": false
+  },
+  {
+    "title": "Supersize Me",
+    "category": "Comedy",
+    "IMDB": 8.5,
+    "isActive": false
+  },
+  {
+    "title": "Kill Bill",
+    "category": "Action",
+    "IMDB": 8.5,
+    "isActive": false
+  }
+]
