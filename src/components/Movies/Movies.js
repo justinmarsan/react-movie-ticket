@@ -27,8 +27,8 @@ export default class Movies extends Component {
 
         <div className="movies">
           {this.state.movies.map((movie, index) =>
-            <div className="movie" key={index} onClick={ this.toggleActiveMovie.bind(this, index) }>
-              <Movie movie={movie} index={index} />
+            <div className="movie" key={index}>
+              <Movie movie={movie} index={index} toggleActive={ this.toggleActiveMovie.bind(this, index) } />
             </div>
           )}
         </div>
@@ -39,7 +39,14 @@ export default class Movies extends Component {
   toggleActiveMovie(index) {
     var movies = this.state.movies;
 
-    movies[index].isActive = !!!movies[index].isActive;
+    movies.map((movie, i) => {
+      if(i === index) {
+        movie.isActive = !!!movie.isActive;
+      }
+      else{
+        movie.isActive = false;
+      }
+    })
 
     this.setState({movies: movies});
   }

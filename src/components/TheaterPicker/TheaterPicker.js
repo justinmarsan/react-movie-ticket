@@ -6,10 +6,10 @@ export default class TheaterPicker extends Component {
   render() {
     return (
       <div className="TheaterPicker">
-        <div className="title">Theater Name</div>
+        <div className="title">{ this.props.theater.name }</div>
 
         <div className="times">
-          <TimePicker />
+          <TimePicker times={ this.props.theater.times } />
         </div>
       </div>
     )

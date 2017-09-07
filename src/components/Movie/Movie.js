@@ -6,7 +6,7 @@ export default class Movie extends Component {
   render() {
     return (
       <div className="Movie">
-        <div className="details">
+        <div className="details" onClick={this.props.toggleActive}>
           <div className="picture"></div>
 
           <div className="metadata">

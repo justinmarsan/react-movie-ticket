@@ -1,0 +1,26 @@
+[
+  {
+    "name": "MK2 François Mitterand",
+    "times": ["09.30am", "11.00am", "12.30am", "02.00pm", "03.30pm", "05.30pm", "07.30pm", "09.30pm"]
+  },
+  {
+    "name": "Megarama Clichy",
+    "times": ["09.30am", "11.00am", "12.30am", "02.00pm", "03.30pm", "05.30pm", "07.30pm", "09.30pm"]
+  },
+  {
+    "name": "Gaumont Place Clichy",
+    "times": ["09.30am", "11.00am", "12.30am", "02.00pm", "03.30pm", "05.30pm", "07.30pm", "09.30pm"]
+  },
+  {
+    "name": "MK2 Paul Doumer",
+    "times": ["09.30am", "11.00am", "12.30am", "02.00pm", "03.30pm", "05.30pm", "07.30pm", "09.30pm"]
+  },
+  {
+    "name": "Megarama Neuilly",
+    "times": ["09.30am", "11.00am", "12.30am", "02.00pm", "03.30pm", "05.30pm", "07.30pm", "09.30pm"]
+  },
+  {
+    "name": "Pathé St lazare",
+    "times": ["09.30am", "11.00am", "12.30am", "02.00pm", "03.30pm", "05.30pm", "07.30pm", "09.30pm"]
+  }
+]
