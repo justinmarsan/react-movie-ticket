@@ -1,0 +1,17 @@
+.Movie {
+  >.details {
+    display: flex;
+    align-items: flex-end;
+
+    >.picture {
+      width: 100px;
+      height: 100px;
+
+      background: rgba(black, 0.2);
+    }
+
+    >.metadata {
+      padding-left: 10px;
+    }
+  }
+}

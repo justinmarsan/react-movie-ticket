@@ -1,0 +1,16 @@
+.Movies {
+  padding: 0.1px; }
+  .Movies > .title {
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold; }
+  .Movies > .filters {
+    display: flex; }
+    .Movies > .filters > .filter {
+      padding: 5px 20px;
+      margin: auto; }
+      .Movies > .filters > .filter.active {
+        background: blue;
+        color: white; }
+  .Movies > .movies > .movie {
+    margin: 20px; }

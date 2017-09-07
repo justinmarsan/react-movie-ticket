@@ -1,0 +1,31 @@
+.Movies {
+  padding: 0.1px;
+
+  >.title {
+    margin: 20px 0;
+
+    text-align: center;
+    font-weight: bold;
+  }
+
+  >.filters {
+    display: flex;
+
+    >.filter {
+      padding: 5px 20px;
+      margin: auto;
+
+      &.active {
+        background: blue;
+
+        color: white;
+      }
+    }
+  }
+
+  >.movies {
+    >.movie {
+      margin: 20px;
+    }
+  }
+}
