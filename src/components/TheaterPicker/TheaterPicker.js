@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TimePicker from '../../components/TimePicker/TimePicker';
+import './TheaterPicker.css';
 
 export default class TheaterPicker extends Component {
   render() {

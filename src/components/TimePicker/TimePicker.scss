@@ -1,0 +1,11 @@
+.TimePicker {
+  display: flex;
+  flex-wrap: wrap;
+
+  .time {
+    width: 25%;
+    padding: 5px 0;
+
+    text-align: center;
+  }
+}

@@ -1,6 +1,7 @@
 .Movie > .details {
   display: flex;
-  align-items: flex-end; }
+  align-items: flex-end;
+  margin-bottom: 10px; }
   .Movie > .details > .picture {
     width: 100px;
     height: 100px;

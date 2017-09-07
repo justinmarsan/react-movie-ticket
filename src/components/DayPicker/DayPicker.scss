@@ -1,0 +1,22 @@
+.DayPicker {
+  >.days {
+    display: flex;
+
+    >.day {
+      margin: auto;
+
+      text-align: center;
+      color: rgba(black, 0.5);
+
+      b {
+        display: block;
+        font-weight: bold;
+        color: black;
+      }
+    }
+  }
+
+  >.theaters {
+    
+  }
+}

@@ -1,0 +1,7 @@
+.TimePicker {
+  display: flex;
+  flex-wrap: wrap; }
+  .TimePicker .time {
+    width: 25%;
+    padding: 5px 0;
+    text-align: center; }

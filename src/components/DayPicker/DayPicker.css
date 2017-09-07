@@ -1,0 +1,10 @@
+.DayPicker > .days {
+  display: flex; }
+  .DayPicker > .days > .day {
+    margin: auto;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5); }
+    .DayPicker > .days > .day b {
+      display: block;
+      font-weight: bold;
+      color: black; }

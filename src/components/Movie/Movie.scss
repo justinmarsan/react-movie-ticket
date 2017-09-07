@@ -2,6 +2,7 @@
   >.details {
     display: flex;
     align-items: flex-end;
+    margin-bottom: 10px;
 
     >.picture {
       width: 100px;
@@ -13,5 +14,8 @@
     >.metadata {
       padding-left: 10px;
     }
+  }
+
+  >.day-picker {
   }
 }
